@@ -1,0 +1,19 @@
+{
+  "name": "exodus",
+  "version": "0.1.0",
+  "description": "Pixel Art Fleet Management Simulation Game",
+  "main": "index.js",
+  "repository": "git@github.com:mdbarr/exodus.git",
+  "author": "Mark Barr <mark@hyperingenuity.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "barrkeep": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "lint": "eslint *.js"
+  }
+}
