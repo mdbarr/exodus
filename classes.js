@@ -1,5 +1,22 @@
 'use strict';
 
+class Person {
+  constructor ({
+    name, gender, age
+  }) {
+    this.name = name;
+    this.gender = gender;
+    this.age = age;
+
+    this.health = 100;
+    this.happiness = 100;
+
+    this.occupation = '';
+
+    this.spouse = null;
+  }
+}
+
 class Ship {
   constructor ({
     name, type
@@ -42,4 +59,7 @@ class Ship {
   }
 }
 
-module.exports = { Ship };
+module.exports = {
+  Person,
+  Ship
+};
